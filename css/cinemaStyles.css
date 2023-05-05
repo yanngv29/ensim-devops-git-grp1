@@ -14,10 +14,11 @@ h3 {
 }
 
 #jumbo-title{
-	font-family: roboto;
-	font-weight: 900;
+	font-family: Helvetica;
+	font-weight: 500;
 	text-transform:uppercase;
 	color: #222;
+	animation: 3s alternate slidein;
 }
 .card-img-top {
     width: 100%;
@@ -39,3 +40,12 @@ h3 {
 .credits > p {
 	color: black;
 }
+
+@keyframes slidein {
+	0% {
+	  transform: translateX(-100%);
+	}
+	100% {
+	  transform: translateX(0%);
+	}
+  }
