@@ -39,3 +39,10 @@ h3 {
 .credits > p {
 	color: black;
 }
+
+footer {
+	color: grey;
+	text-align: center;
+	flex-direction: row;
+	font-family: Arial;
+}
