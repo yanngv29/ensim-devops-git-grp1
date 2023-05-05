@@ -40,7 +40,9 @@ h3 {
 .credits > p {
 	color: black;
 }
-
+.rating{
+	color: blueviolet;
+}
 @keyframes slidein {
 	0% {
 	  transform: translateX(-100%);
